@@ -906,14 +906,14 @@ button.navbar-toggler:focus {
     z-index: 4;
 }
     .hero-single-2 .hero-content-2 .hero-sub-title {
-      color: var(--clr-heading);
+      color: var(--clr-white);
       margin-bottom: 3rem; }
     .hero-single-2 .hero-content-2 .hero-title {
-      color: var(--clr-heading);
+      color: var(--clr-white);
       font-weight: 700;
       margin-bottom: 3rem; }
     .hero-single-2 .hero-content-2 p {
-      color: var(--clr-heading);
+      color: var(--clr-white);
       font-family: var(--font-2);
       font-size: 1.8rem;
       margin-bottom: 3rem;
@@ -929,9 +929,7 @@ button.navbar-toggler:focus {
     width: 440px;
     height: 440px;
     content: '';
-    background-image: -moz-linear-gradient(11deg, #291342 0%, #c60242 100%);
-    background-image: -webkit-linear-gradient(11deg, #291342 0%, #c60242 100%);
-    background-image: -ms-linear-gradient(11deg, #291342 0%, #c60242 100%);
+    background-image: linear-gradient(11deg, var(--clr-def-2) 0%, var(--clr-def) 100%);
     z-index: -1;
     transition: all .5s ease-in-out;
     animation: ups-down 5s infinite ease-out;
@@ -942,7 +940,7 @@ button.navbar-toggler:focus {
     width: 440px;
     height: 440px;
     content: '';
-    background-color: #c40342;
+    background-color: var(--clr-def);
     z-index: -2;
     top: -30px;
     right: -15px; }
