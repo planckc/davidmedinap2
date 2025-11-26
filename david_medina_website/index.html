@@ -22,7 +22,8 @@
 	<link href="style.css" rel="stylesheet">
 	<link href="assets/css/responsive.css" rel="stylesheet" />
 	<!-- ========== End Stylesheet ========== -->
-  
+	<!-- Google reCAPTCHA v3 script -->
+	<script src="https://www.google.com/recaptcha/api.js?render=6LcYURksAAAAAA3p7Hd11CJOoRECd9o1Fi-9gaK2"></script>
 </head>
 
 <body id="bdy" class="scroll-style">		
@@ -1069,6 +1070,25 @@
 	<script src=" assets/js/YTPlayer.min.js"></script>
 	<script src=" assets/js/active-class.js"></script>
     <script src=" assets/js/main.js"></script>	
+	<script>
+		document.getElementById('contact-form').addEventListener('submit', function(event) {
+			event.preventDefault(); // Evita el envío normal del formulario
+
+			grecaptcha.ready(function() {
+				grecaptcha.execute('6LcYURksAAAAAA3p7Hd11CJOoRECd9o1Fi-9gaK2', {action: 'submit_form'}).then(function(token) {
+					// Añade el token de reCAPTCHA al formulario
+					var input = document.createElement('input');
+					input.type = 'hidden';
+					input.name = 'g-recaptcha-response';
+					input.value = token;
+					document.getElementById('contact-form').appendChild(input);
+
+					// Ahora envía el formulario
+					document.getElementById('contact-form').submit();
+				});
+			});
+		});
+	</script>
 </body>
 
 </html>

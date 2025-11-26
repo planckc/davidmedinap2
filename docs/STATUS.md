@@ -16,7 +16,8 @@ Este documento es una bitácora del progreso para facilitar la continuidad del t
     *   **Redacción del manual de usuario (`USER_MANUAL.md`)** con instrucciones para la edición de contenido y la modificación de la paleta de colores.
     *   **Decisión sobre la paleta de colores:** Se mantendrán los colores actuales, documentando el proceso para su futura modificación.
     *   **Decisión sobre secciones de la plantilla:** Se mantendrán las secciones actuales, sin añadir ni eliminar por el momento.
+    *   **Integración del formulario de contacto con Webhook de n8n.**
 
 *   **Próximo Paso:**
     *   Continuar con la **Fase 3: Personalización y Ajustes**.
-    *   **Paso 3.3:** Revisar la funcionalidad del formulario de contacto, incluyendo la integración con un Webhook de n8n y la implementación de Google reCAPTCHA v3 para seguridad anti-spam.
+    *   **Paso 3.3.2:** Implementar Google reCAPTCHA v3 en el formulario para seguridad anti-spam.

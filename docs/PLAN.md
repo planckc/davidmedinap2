@@ -23,7 +23,7 @@ Este documento detalla las fases y los pasos planificados para completar el proy
 - [x] **Paso 3.1:** Ajustar la paleta de colores y tipografías si es necesario.
 - [x] **Paso 3.2:** Añadir o eliminar secciones de la plantilla según los requerimientos.
 - [ ] **Paso 3.3:** Revisar la funcionalidad del formulario de contacto.
-    - [ ] **Paso 3.3.1:** Integrar el formulario con un Webhook de n8n para el envío de datos.
+    - [x] **Paso 3.3.1:** Integrar el formulario con un Webhook de n8n para el envío de datos.
     - [ ] **Paso 3.3.2:** Implementar Google reCAPTCHA v3 en el formulario para seguridad anti-spam.
     - [ ] **Paso 3.3.3:** Configurar la verificación del token reCAPTCHA en el flujo de n8n.
 
