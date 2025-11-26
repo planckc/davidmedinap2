@@ -99,8 +99,43 @@ Esta es la primera sección que ven los visitantes.
 
 ---
 
-## 3. Guardar Cambios
+## 3. Modificación de la Paleta de Colores
 
-Después de realizar tus ediciones, guarda el archivo `index.html`. Luego, puedes abrirlo en tu navegador web para ver los cambios.
+Los colores principales del sitio web se definen mediante variables en un archivo SASS. Modificar estos colores te permite cambiar la apariencia general del sitio sin editar cada elemento individualmente.
+
+**Archivo a Modificar:**
+`david_medina_website/sass/component/_variable.scss`
+
+**Variables de Color Clave:**
+
+Dentro de este archivo, encontrarás un bloque `:root` con variables CSS como las siguientes:
+
+```css
+:root {
+    --clr-heading: #111135;   /* Color para títulos */
+    --clr-body: #565656;      /* Color para el texto principal */
+    --clr-def: #ff508e;       /* Color de acento principal (ej. botones, enlaces) */
+    --clr-def-2: #d450ff;     /* Color de acento secundario (ej. gradientes) */
+    --clr-white: #fff;        /* Blanco */
+    --clr-black: #000;        /* Negro */
+    /* ... otras variables ... */
+}
+```
+
+**Cómo Cambiar los Colores:**
+
+1.  **Edita el archivo `_variable.scss`:** Abre `david_medina_website/sass/component/_variable.scss` con un editor de texto.
+2.  **Modifica los valores:** Cambia los códigos hexadecimales (ej. `#ff508e`) por los nuevos colores que desees. Puedes usar cualquier formato de color CSS (RGB, HSL, nombres de color).
+    *   Por ejemplo, para cambiar el color de acento principal a un azul:
+        `--clr-def: #007bff;`
+3.  **Compila SASS a CSS:** Después de guardar los cambios en `_variable.scss`, es **crucial** compilar los archivos SASS a CSS. Esto generará un nuevo archivo `style.css` que el navegador utilizará.
+    *   **Si tienes un compilador SASS configurado:** Ejecuta el comando de compilación (ej. `sass david_medina_website/sass/style.scss david_medina_website/style.css`).
+    *   **Si no tienes un compilador SASS:** Puedes editar directamente el archivo `david_medina_website/style.css`. Sin embargo, ten en cuenta que cualquier cambio futuro en los archivos SASS sobrescribirá tus ediciones directas en `style.css`. Para cambios permanentes y mantenibles, se recomienda configurar un compilador SASS.
+
+---
+
+## 4. Guardar Cambios
+
+Después de realizar tus ediciones, guarda el archivo `index.html` (y `_variable.scss` si lo modificaste y compilaste SASS). Luego, puedes abrirlo en tu navegador web para ver los cambios.
 
 Si tienes alguna duda o necesitas realizar cambios más complejos, no dudes en contactarme.
