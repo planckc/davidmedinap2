@@ -906,14 +906,14 @@ button.navbar-toggler:focus {
     z-index: 4;
 }
     .hero-single-2 .hero-content-2 .hero-sub-title {
-      color: var(--clr-white);
+      color: var(--clr-heading);
       margin-bottom: 3rem; }
     .hero-single-2 .hero-content-2 .hero-title {
-      color: var(--clr-white);
+      color: var(--clr-heading);
       font-weight: 700;
       margin-bottom: 3rem; }
     .hero-single-2 .hero-content-2 p {
-      color: var(--clr-white);
+      color: var(--clr-heading);
       font-family: var(--font-2);
       font-size: 1.8rem;
       margin-bottom: 3rem;
