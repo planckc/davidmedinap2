@@ -13,8 +13,10 @@ Este documento es una bitácora del progreso para facilitar la continuidad del t
     *   **Actualización de la sección "Sobre mí"** con la biografía de David Medina.
     *   **Actualización de las secciones de "Servicios" y "Habilidades"** con la información relevante.
     *   **Configuración de la información de contacto y redes sociales** en la sección de Contacto y el pie de página.
+    *   **Redacción del manual de usuario (`USER_MANUAL.md`)** con instrucciones para la edición de contenido y la modificación de la paleta de colores.
+    *   **Decisión sobre la paleta de colores:** Se mantendrán los colores actuales, documentando el proceso para su futura modificación.
+    *   **Decisión sobre secciones de la plantilla:** Se mantendrán las secciones actuales, sin añadir ni eliminar por el momento.
 
 *   **Próximo Paso:**
-    *   Continuar con la **Fase 2: Integración de Contenido**.
-    *   **Paso 2.3: Poblar la galería del portafolio** con los proyectos de `Input/DME/`. (PosPuesto para más adelante).
-    *   **Paso 2.6:** Redactar el manual de usuario (`USER_MANUAL.md`) para la edición de contenido.
+    *   Continuar con la **Fase 3: Personalización y Ajustes**.
+    *   **Paso 3.3:** Revisar la funcionalidad del formulario de contacto, incluyendo la integración con un Webhook de n8n y la implementación de Google reCAPTCHA v3 para seguridad anti-spam.
