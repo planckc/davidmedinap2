@@ -26,35 +26,6 @@
 </head>
 
 <body id="bdy" class="scroll-style">		
-	<!-- Temporary Theme Switcher -->
-	<div style="position: fixed; top: 10px; right: 10px; z-index: 1000; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-		<button onclick="setTheme('original')" style="background-color: #ff508e; color: white; border: none; padding: 8px 12px; margin: 5px; cursor: pointer; border-radius: 3px;">Original</button>
-		<button onclick="setTheme('blue')" style="background-color: #007bff; color: white; border: none; padding: 8px 12px; margin: 5px; cursor: pointer; border-radius: 3px;">Azul</button>
-		<button onclick="setTheme('green')" style="background-color: #28a745; color: white; border: none; padding: 8px 12px; margin: 5px; cursor: pointer; border-radius: 3px;">Verde</button>
-	</div>
-
-	<script>
-		function setTheme(theme) {
-			const root = document.documentElement;
-			if (theme === 'original') {
-				root.style.setProperty('--clr-def', '#ff508e');
-				root.style.setProperty('--clr-def-2', '#d450ff');
-				root.style.setProperty('--clr-heading', '#111135');
-				root.style.setProperty('--clr-body', '#565656');
-			} else if (theme === 'blue') {
-				root.style.setProperty('--clr-def', '#007bff');
-				root.style.setProperty('--clr-def-2', '#0056b3');
-				root.style.setProperty('--clr-heading', '#000000');
-				root.style.setProperty('--clr-body', '#343a40');
-			} else if (theme === 'green') {
-				root.style.setProperty('--clr-def', '#28a745');
-				root.style.setProperty('--clr-def-2', '#1e7e34');
-				root.style.setProperty('--clr-heading', '#212529');
-				root.style.setProperty('--clr-body', '#6c757d');
-			}
-		}
-	</script>
-	<!-- End Temporary Theme Switcher -->
 
 	<!-- Start PreLoader 
     ============================================= -->
